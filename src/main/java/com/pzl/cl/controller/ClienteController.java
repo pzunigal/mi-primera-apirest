@@ -1,7 +1,7 @@
-package com.pzuniga.mi_primera_apirest.controller;
+package com.pzl.cl.controller;
 
-import com.pzuniga.mi_primera_apirest.model.entity.Cliente;
-import com.pzuniga.mi_primera_apirest.service.ICliente;
+import com.pzl.cl.model.entity.Cliente;
+import com.pzl.cl.service.ICliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

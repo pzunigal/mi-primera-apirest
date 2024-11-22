@@ -1,4 +1,4 @@
-package com.pzuniga.mi_primera_apirest.model.entity;
+package com.pzl.cl.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -17,7 +17,7 @@ import java.util.Date;
 @Table (name = "clientes")
 public class Cliente implements Serializable {
     @Id
-    @Column(name = "id-cliente")
+    @Column(name = "id_cliente")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idCliente;
 

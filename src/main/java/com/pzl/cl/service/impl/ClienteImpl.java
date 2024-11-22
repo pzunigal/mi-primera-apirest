@@ -1,8 +1,8 @@
-package com.pzuniga.mi_primera_apirest.service.impl;
+package com.pzl.cl.service.impl;
 
-import com.pzuniga.mi_primera_apirest.model.dao.ClienteDao;
-import com.pzuniga.mi_primera_apirest.model.entity.Cliente;
-import com.pzuniga.mi_primera_apirest.service.ICliente;
+import com.pzl.cl.service.ICliente;
+import com.pzl.cl.model.dao.ClienteDao;
+import com.pzl.cl.model.entity.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

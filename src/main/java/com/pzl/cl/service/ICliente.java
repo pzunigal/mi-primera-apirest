@@ -1,6 +1,6 @@
-package com.pzuniga.mi_primera_apirest.service;
+package com.pzl.cl.service;
 
-import com.pzuniga.mi_primera_apirest.model.entity.Cliente;
+import com.pzl.cl.model.entity.Cliente;
 
 public interface ICliente {
 
